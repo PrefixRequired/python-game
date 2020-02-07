@@ -12,7 +12,7 @@ from util import Stack, Queue
 
 full_data = {}
 lambda_url = "https://lambda-treasure-hunt.herokuapp.com/api"
-api_key = "be566f4fcf3f42935c1981deac0fb39f4d338d19"
+api_key = ""
 
 with open("./export.json", "r") as file:
     full_data = json.loads(file.read())
