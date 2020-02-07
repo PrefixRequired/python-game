@@ -543,3 +543,5 @@ for(const [key, value] of Object.entries(compiled)) {
         console.log(value)
     }
 }
+
+fs.writeFileSync("./export.json", JSON.stringify(compiled), { encoding: "utf-8" })
